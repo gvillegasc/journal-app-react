@@ -1,9 +1,10 @@
 import React from 'react';
+import { AppRoute } from './routes/AppRoute';
 
 export const JournalApp = () => {
 	return (
 		<div>
-			<h1>Jorunal App</h1>
+			<AppRoute />
 		</div>
 	);
 };
