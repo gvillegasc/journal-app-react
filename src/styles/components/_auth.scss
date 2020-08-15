@@ -19,6 +19,7 @@
 .auth__title {
     color: darken($color: $primary, $amount: 20);
     margin-bottom: 20px;
+    font-size: 1.5rem;
 }
 
 .auth__input {
@@ -54,4 +55,8 @@
     justify-content: center;
     margin-bottom: 10px;
     padding: 5px;
+}
+
+.auth__subtitle {
+    font-weight: 600;
 }

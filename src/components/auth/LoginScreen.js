@@ -23,7 +23,7 @@ export const LoginScreen = () => {
 					Login
 				</button>
 				<div className="auth__social-networks ">
-					<p>Login with social networks</p>
+					<p className="auth__subtitle">Login with social networks</p>
 					<div className="google-btn">
 						<div className="google-icon-wrapper">
 							<img
