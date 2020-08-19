@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 export const LoginScreen = () => {
 	return (
-		<div>
+		<>
 			<h3 className="auth__title">Login</h3>
 
 			<form>
@@ -37,8 +37,8 @@ export const LoginScreen = () => {
 						</p>
 					</div>
 				</div>
-				<Link to="/auth/register">Create new account</Link>
+				<Link to="/auth/register" className="link">Create new account</Link>
 			</form>
-		</div>
+		</>
 	);
 };
