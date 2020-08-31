@@ -49,10 +49,7 @@ export const NoteScreen = () => {
 
 				{note.url && (
 					<div className="notes__image">
-						<img
-							src="https://ichef.bbci.co.uk/news/410/cpsprodpb/113AC/production/_113427507_solar_orbiter_eui-fullsun01.jpg"
-							alt="imagen"
-						/>
+						<img src={note.url} alt="imagen" />
 					</div>
 				)}
 			</div>
