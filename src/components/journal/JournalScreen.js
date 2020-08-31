@@ -7,7 +7,7 @@ import { NothingSelected } from './NothingSelected';
 export const JournalScreen = () => {
 	const { active } = useSelector((state) => state.notes);
 	return (
-		<div className="journal__main-context">
+		<div className="journal__main-context animate__animated animate__fadeIn animate__faster">
 			<Sidebar />
 
 			<main>{active ? <NoteScreen /> : <NothingSelected />}</main>
